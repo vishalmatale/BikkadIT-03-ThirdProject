@@ -51,3 +51,419 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2022-08-04 16:09:51.074
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:10:16.138
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:10:16.139
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2f4117a0[org.springframework.tooling.boot.ls:1.36.0.202206171137(id=744)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:10:16.257
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:10:17.944
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-08-04 16:10:39.683
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:10:52.958
+!MESSAGE Boot LS startup time from start to initialized: 36333ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:10:54.037
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.XewIdOBNisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:10:54.103
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:10:54.127
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:10:54.128
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:10:54.129
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.XewIdOBN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:10:54.130
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:10:54.435
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:10:54.444
+!MESSAGE buffering callback sts4.classpath.XewIdOBN GitThirdProject false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:10:54.445
+!MESSAGE executing callback sts4.classpath.XewIdOBN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:10:56.508
+!MESSAGE executing callback sts4.classpath.XewIdOBN FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-08-04 16:10:56.509
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:14:06.087
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:14:06.112
+!MESSAGE classpath=72 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:14:06.125
+!MESSAGE buffering callback sts4.classpath.XewIdOBN GitThirdProject false 72
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:14:06.125
+!MESSAGE executing callback sts4.classpath.XewIdOBN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:14:06.262
+!MESSAGE executing callback sts4.classpath.XewIdOBN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:14:22.957
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:14:22.987
+!MESSAGE classpath=72 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:14:23.005
+!MESSAGE buffering callback sts4.classpath.XewIdOBN GitThirdProject false 72
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:14:23.006
+!MESSAGE executing callback sts4.classpath.XewIdOBN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:14:23.048
+!MESSAGE executing callback sts4.classpath.XewIdOBN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:15:09.362
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:15:09.407
+!MESSAGE classpath=73 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:15:09.420
+!MESSAGE buffering callback sts4.classpath.XewIdOBN GitThirdProject false 73
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:15:09.421
+!MESSAGE executing callback sts4.classpath.XewIdOBN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:15:09.524
+!MESSAGE executing callback sts4.classpath.XewIdOBN SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-04 16:24:24.691
+!MESSAGE Could not download sources for mysql:mysql-connector-mxj-db-files:5.0.12
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact mysql:mysql-connector-mxj-db-files:jar:sources:5.0.12
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing mysql:mysql-connector-mxj-db-files:jar:sources:5.0.12
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-08-04 16:24:24.791
+!MESSAGE Could not resolve artifact mysql:mysql-connector-mxj-db-files:jar:sources:5.0.12
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-08-04 16:24:24.791
+!MESSAGE Missing mysql:mysql-connector-mxj-db-files:jar:sources:5.0.12
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:24:25.152
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:24:25.167
+!MESSAGE classpath=73 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:24:25.179
+!MESSAGE buffering callback sts4.classpath.XewIdOBN GitThirdProject false 73
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:24:25.180
+!MESSAGE executing callback sts4.classpath.XewIdOBN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:24:25.241
+!MESSAGE executing callback sts4.classpath.XewIdOBN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:24:30.075
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:24:30.090
+!MESSAGE classpath=75 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:24:30.163
+!MESSAGE buffering callback sts4.classpath.XewIdOBN GitThirdProject false 75
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:24:30.164
+!MESSAGE executing callback sts4.classpath.XewIdOBN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:24:30.373
+!MESSAGE executing callback sts4.classpath.XewIdOBN SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-04 16:24:33.673
+!MESSAGE Could not download javadoc for mysql:mysql-connector-mxj-db-files:5.0.12
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact mysql:mysql-connector-mxj-db-files:jar:javadoc:5.0.12
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing mysql:mysql-connector-mxj-db-files:jar:javadoc:5.0.12
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-08-04 16:24:33.673
+!MESSAGE Could not resolve artifact mysql:mysql-connector-mxj-db-files:jar:javadoc:5.0.12
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-08-04 16:24:33.673
+!MESSAGE Missing mysql:mysql-connector-mxj-db-files:jar:javadoc:5.0.12
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:24:34.082
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:24:34.097
+!MESSAGE classpath=75 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:24:34.110
+!MESSAGE buffering callback sts4.classpath.XewIdOBN GitThirdProject false 75
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:24:34.111
+!MESSAGE executing callback sts4.classpath.XewIdOBN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:24:34.157
+!MESSAGE executing callback sts4.classpath.XewIdOBN SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-08-04 16:24:39.602
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:25:09.855
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:25:09.964
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:25:09.980
+!MESSAGE buffering callback sts4.classpath.XewIdOBN GitThirdProject-1 false 54
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:25:09.981
+!MESSAGE executing callback sts4.classpath.XewIdOBN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:25:10.021
+!MESSAGE executing callback sts4.classpath.XewIdOBN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:25:11.880
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:25:11.909
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:25:11.919
+!MESSAGE buffering callback sts4.classpath.XewIdOBN GitThirdProject-1 false 54
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:25:11.920
+!MESSAGE executing callback sts4.classpath.XewIdOBN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:25:11.965
+!MESSAGE executing callback sts4.classpath.XewIdOBN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:26:14.192
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:26:14.208
+!MESSAGE classpath=73 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:26:14.250
+!MESSAGE buffering callback sts4.classpath.XewIdOBN GitThirdProject false 73
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:26:14.258
+!MESSAGE executing callback sts4.classpath.XewIdOBN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:26:14.378
+!MESSAGE executing callback sts4.classpath.XewIdOBN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:27:43.308
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:27:43.309
+!MESSAGE buffering callback sts4.classpath.XewIdOBN GitThirdProject-1 true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:27:43.310
+!MESSAGE executing callback sts4.classpath.XewIdOBN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:27:43.386
+!MESSAGE executing callback sts4.classpath.XewIdOBN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:28:14.123
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:28:14.138
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:28:14.151
+!MESSAGE buffering callback sts4.classpath.XewIdOBN demo false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:28:14.152
+!MESSAGE executing callback sts4.classpath.XewIdOBN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:28:14.208
+!MESSAGE executing callback sts4.classpath.XewIdOBN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:28:14.875
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:28:14.888
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:28:14.899
+!MESSAGE buffering callback sts4.classpath.XewIdOBN demo false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:28:14.900
+!MESSAGE executing callback sts4.classpath.XewIdOBN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:28:14.946
+!MESSAGE executing callback sts4.classpath.XewIdOBN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:28:38.926
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:28:38.969
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:28:38.979
+!MESSAGE buffering callback sts4.classpath.XewIdOBN demo false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:28:38.980
+!MESSAGE executing callback sts4.classpath.XewIdOBN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:28:39.157
+!MESSAGE executing callback sts4.classpath.XewIdOBN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:29:43.279
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:29:43.280
+!MESSAGE buffering callback sts4.classpath.XewIdOBN demo true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:29:43.280
+!MESSAGE executing callback sts4.classpath.XewIdOBN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:29:43.288
+!MESSAGE executing callback sts4.classpath.XewIdOBN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:34:09.731
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:34:09.838
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:34:09.852
+!MESSAGE buffering callback sts4.classpath.XewIdOBN demo1 false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:34:09.853
+!MESSAGE executing callback sts4.classpath.XewIdOBN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:34:09.907
+!MESSAGE executing callback sts4.classpath.XewIdOBN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:34:22.342
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:34:22.358
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:34:22.418
+!MESSAGE buffering callback sts4.classpath.XewIdOBN demo1 false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:34:22.418
+!MESSAGE executing callback sts4.classpath.XewIdOBN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:34:22.468
+!MESSAGE executing callback sts4.classpath.XewIdOBN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:34:50.184
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:34:50.215
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:34:50.245
+!MESSAGE buffering callback sts4.classpath.XewIdOBN demo1 false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:34:50.247
+!MESSAGE executing callback sts4.classpath.XewIdOBN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:34:50.287
+!MESSAGE executing callback sts4.classpath.XewIdOBN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:34:50.997
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:34:51.015
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:34:51.029
+!MESSAGE buffering callback sts4.classpath.XewIdOBN demo1 false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:34:51.030
+!MESSAGE executing callback sts4.classpath.XewIdOBN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:34:51.153
+!MESSAGE executing callback sts4.classpath.XewIdOBN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:35:38.785
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:35:38.824
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:35:38.839
+!MESSAGE buffering callback sts4.classpath.XewIdOBN GitThirdProject false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:35:38.840
+!MESSAGE executing callback sts4.classpath.XewIdOBN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-04 16:35:38.927
+!MESSAGE executing callback sts4.classpath.XewIdOBN SUCCESS [done]
