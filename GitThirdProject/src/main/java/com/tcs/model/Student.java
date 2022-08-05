@@ -1,15 +1,20 @@
 package com.tcs.model;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+
 @Entity
+
 public class Student {
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	private String name;
 	private  String email;
-	private int Age;
+	private int age;
 	public int getId() {
 		return id;
 	}
@@ -29,14 +34,25 @@ public class Student {
 		this.email = email;
 	}
 	public int getAge() {
-		return Age;
+		return age;
 	}
 	public void setAge(int age) {
-		Age = age;
+		this.age = age;
 	}
 	@Override
 	public String toString() {
-		return "Student [id=" + id + ", name=" + name + ", email=" + email + ", Age=" + Age + "]";
+		return "Student [id=" + id + ", name=" + name + ", email=" + email + ", age=" + age + "]";
+	}
+	public Student(int id, String name, String email, int age) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.email = email;
+		this.age = age;
+	}
+	public Student() {
+		super();
+		// TODO Auto-generated constructor stub
 	}
 	
 

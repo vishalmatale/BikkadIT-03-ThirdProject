@@ -1,17 +1,17 @@
 package com.tcs.Service;
 
+import java.util.List;
+
 import com.tcs.model.Student;
-
-
 
 public interface StudentServiceI {
 	
 	
-	public int savedata(Student student);
+	public Student savedata(Student student);
 	
-	public java.util.List<Student>getalldata();
+	public List<Student>getalldata();
 	
-	public Student getStudentById();
+	public List<Student> getStudentByAge(int age);
 	
 	
 
